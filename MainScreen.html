@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Impostor</title>
+        <meta name ="author" content="Sara y Jordi">
+        <link rel="stylesheet" href="MainScreen.css">
+        <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <div class="navbar">
+            <a class="active" href="#home">Inicio</a>
+            <a class="sobre "href="#about">Sobre</a>
+            <a class="modos" href="#modes">Modos</a>
+        </div>
+
+        <header>
+            <h1 id="welcome"> BIENVENIDO AL <br> <a id="title"> IMPOSTOR </a></h1>
+        </header>
+
+        <section> 
+            <!--BOTÓN PARA DARLE AL PLAY-->
+            <div class="btn">
+                <!--<button>Jugar</button>-->
+            </div>
+
+            <div>
+                <!--<button>¿Cómo jugar?</button>-->
+            </div> 
+        </section>
+
+        <button class="feedback-icon" id="feedbackBtn">
+            <img src="https://cdn-icons-png.flaticon.com/512/9796/9796492.png" alt="Feedback">
+        </button>
+
+        <div id="feedback-popup"class="feedback-popup" aria-hidden="true">
+            <div class="feedback-content">
+                <button class="close-btn" id="closeBtn">&times;</button>
+                <p>Deja tu feedback</p>
+                <textarea placeholder="Escriu aquí el teu missatge..."></textarea>
+                <button class="enviar-btn">Enviar</button>
+                
+            </div>
+        </div>
+
+        <script src="MainScreen.js"></script>
+         
+        <footer>
+            <p> Sara Castelo Novo y Jordi Medina González <br> Copyright © 2025</p>
+        </footer>
+        
+
+    </body>
+
+</html>
