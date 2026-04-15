@@ -6,9 +6,9 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
     min-height: 50vh;
     
 }
@@ -39,6 +39,20 @@ body {
     text-decoration:none;
 }
 
+.playbutton {
+  font-size: 27.5px;
+  margin-top: 50px;
+  font-family: 'VCR OSD Mono', sans-serif;
+  cursor: pointer;
+  padding: 1px 70px;
+  border-radius: 50px;
+  color:  rgba(11, 22, 124, 0.884);
+  border-color: white;
+}
+
+.playbutton:hover {
+  background-color: rgb(205, 231, 246);
+}
 
 .close-btn {
   position: absolute;
@@ -53,6 +67,24 @@ body {
 
 .close-btn:hover {
   color: red;
+}
+
+.settings-icon {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  padding: 7px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.settings-icon img {
+  width: 27px;
+  height: 27px;
+    display: block;
 }
 
 .feedback-icon {
@@ -70,6 +102,7 @@ body {
 .feedback-icon img {
   width: 20px;
   height: 20px;
+    display: block;
 }
 
 
@@ -134,6 +167,10 @@ body {
 #title {
     color: rgb(255, 255, 255);
     font-size: clamp(100px, 8vw, 80px);
+}
+
+#title:hover {
+  color: rgb(187, 39, 39);
 }
 
 
